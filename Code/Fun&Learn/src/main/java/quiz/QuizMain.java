@@ -21,6 +21,7 @@ public class QuizMain {
 				+ "Welches Themengebiet moechtest du spielen?\n\n" 
 				+ "1: Deutschland-Quiz\n" 
 				+ "2: Astronomie-Quiz\n"
+				+ "3: Technik-Quiz\n"
 				+ "S: Zurueck zum Start\n"
 				+ "X: Anwendung beenden\n");
 
@@ -41,6 +42,7 @@ public class QuizMain {
 	private static void setMap() {
 		map.put("1", "Deutschland");
 		map.put("2", "Astronomie");
+		map.put("3", "Technik");
 		map.put("X", "Exit");
 		map.put("S", "Start");
 	}

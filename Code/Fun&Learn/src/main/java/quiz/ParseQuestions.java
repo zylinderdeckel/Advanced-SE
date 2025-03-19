@@ -12,6 +12,10 @@ public class ParseQuestions {
 				break;
 			case "Astronomie":
 				this.questions = new AstronomieF();
+        break;
+      case "Technik":
+        this.questions = new TechnikF();
+        break;
 		}
 	}
 
